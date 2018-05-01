@@ -1,0 +1,14 @@
+# tubot by moayed
+
+import discord 
+from discord.exe import commands 
+from discord.exe.commands import bot 
+import asyncio 
+bot = commands.Bot(command_perfix='#')
+
+@bot.event 
+async def on_ready(): 
+    print ("ready when you are moayed ")
+    print (" this bot by "+ bot.user.id)
+
+    bot.run("NDQwNTk4ODQxNjk2NDUyNjE4.DckDMw.BwPZ_fuXoJ0y91RPllrRd9NgKlw")
