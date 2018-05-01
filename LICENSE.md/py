@@ -11,4 +11,4 @@ async def on_ready():
     print ("ready when you are moayed ")
     print (" this bot by "+ bot.user.id)
 
-    bot.run("NDQwNTk4ODQxNjk2NDUyNjE4.DckDMw.BwPZ_fuXoJ0y91RPllrRd9NgKlw")
+    bot.run("the token ")
